@@ -22,7 +22,7 @@ module.exports = (
         <Route path ="Search" component = {Search}></Route>
         <Route path = 'Query' component ={Query}></Route>
 
-        <IndexRoute component = {Search}/>
+        {/*<IndexRoute component = {Search}/>*/}
 
     </Route>
 

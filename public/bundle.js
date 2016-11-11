@@ -25505,7 +25505,7 @@
 	                    )
 	                )
 	            ),
-	            React.createElement('div', { className: 'container' })
+	            this.props.children
 	        );
 	    }
 
@@ -25517,7 +25517,7 @@
 /* 224 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	/**
 	 * Created by carlosgonzalez on 11/11/16.
@@ -25525,15 +25525,28 @@
 	var React = __webpack_require__(1);
 
 	var Search = React.createClass({
-	    displayName: 'Search',
+	    displayName: "Search",
 
 
 	    render: function render() {
 
 	        return React.createElement(
-	            'div',
-	            null,
-	            'Search'
+	            "div",
+	            { className: "row" },
+	            React.createElement(
+	                "div",
+	                { className: "col-md-12" },
+	                React.createElement(
+	                    "form",
+	                    { className: "panel panel-default" },
+	                    React.createElement(
+	                        "div",
+	                        { className: "panel-heading" },
+	                        "Saved Articles"
+	                    ),
+	                    React.createElement("div", { className: "panel-body" })
+	                )
+	            )
 	        );
 	    }
 

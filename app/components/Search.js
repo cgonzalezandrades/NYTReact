@@ -9,7 +9,16 @@ var Search = React.createClass({
 
         return(
 
-            <div>Search</div>
+            <div className="row">
+                <div className="col-md-12">
+                    <form className="panel panel-default">
+                        <div className="panel-heading">Saved Articles</div>
+                        <div className="panel-body">
+
+                        </div>
+                    </form>
+                </div>
+            </div>
 
         )
 

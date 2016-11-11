@@ -42,12 +42,7 @@ var Main = React.createClass({
                 </div>
 
 
-                <div className="container">
-
-                    {/*{this.props.children}*/}
-
-
-                </div>
+                {this.props.children}
 
 
             </div>
